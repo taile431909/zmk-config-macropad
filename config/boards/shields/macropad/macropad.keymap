@@ -11,22 +11,22 @@
 
         MAIN_layer {
             bindings = <
-                &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
-                &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
-                &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
-                &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
-                &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
-                &lt BT      &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
+                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
+                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
+                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
+                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
+                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
+                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
             >;
         };
 
         BT_layer {
             bindings = <
-                &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
-                &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
-                &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
-                &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
-                &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
+                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
+                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
+                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
+                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
+                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
                 &trans      &kp A       &kp B       &bt BT_CLR  &bt BT_SEL0
             >;
         };
