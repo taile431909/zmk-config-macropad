@@ -27,7 +27,7 @@
                 &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
                 &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
                 &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7   &kp KP_N7
-                &none       &kp A       &kp B       &bt BT_CLR   &bt BT_SEL0
+                &trans      &kp A       &kp B       &bt BT_CLR  &bt BT_SEL0
             >;
         };
     };
