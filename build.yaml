@@ -19,7 +19,4 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: contra
-include:
-  - board: nice_nano_v2
-    shield: contra
+    shield: macropad
