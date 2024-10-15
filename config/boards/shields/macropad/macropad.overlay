@@ -5,7 +5,19 @@
         zmk,kscan = &default_kscan;
         zmk,matrix_transform = &default_transform;
     };
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&encoder;
+        triggers-per-rotation = <20>;
+    };
 
+    encoder: encoder {
+        compatible = "alps,ec11";
+        a-gpios = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "enabled";
+    };
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "default_kscan";
