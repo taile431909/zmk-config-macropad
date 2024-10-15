@@ -27,8 +27,8 @@
                 &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
                 &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
                 &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
-                &trans      &kp A       &kp B       &bt BT_CLR  &bt BT_SEL0
+                &trans      &kp A       &kp B       &bt BT_CLR  &bt BT_SEL 0
             >;
         };
     };
-};
+}
