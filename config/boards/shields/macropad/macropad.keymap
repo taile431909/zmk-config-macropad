@@ -11,18 +11,20 @@
 
         MAIN_layer {
             bindings = <
-                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
+                &kp C_MUTE  &kp N7      &kp N7      &kp N7      &kp N7
                 &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
                 &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
                 &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
                 &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
                 &mo BT      &kp N7      &kp N7      &kp N7      &kp N7
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         BT_layer {
             bindings = <
-                &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
+                &trans      &kp N7      &kp N7      &kp N7      &kp N7
                 &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
                 &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
                 &kp N7      &kp N7      &kp N7      &kp N7      &kp N7
