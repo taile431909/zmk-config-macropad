@@ -28,17 +28,17 @@
 &mo 1          &kp PERIOD       &kp N0         &d0           &kp LCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans     &trans
-&trans  &trans  &trans  &trans     &trans
-&trans  &trans  &trans  &soft_off  &trans
-&trans  &trans  &trans  &trans     &trans
-&trans  &trans  &trans  &trans     &trans
-&trans  &trans  &trans  &trans     &trans
+&trans  &trans  &trans       &trans     &trans
+&trans  &trans  &trans       &trans     &trans
+&trans  &trans  &bootloader  &soft_off  &trans
+&trans  &trans  &trans       &trans     &trans
+&trans  &trans  &trans       &trans     &trans
+&trans  &trans  &trans       &trans     &trans
             >;
         };
     };
