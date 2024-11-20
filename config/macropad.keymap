@@ -35,7 +35,7 @@
             bindings = <
 &trans  &trans      &trans       &trans     &trans
 &trans  &trans      &trans       &trans     &trans
-&trans  &sys_reset  &bootloader  &soft_off  &trans
+&trans  &sys_reset  &bootloader  &trans  &trans
 &trans  &trans      &trans       &trans     &trans
 &trans  &trans      &trans       &trans     &trans
 &trans  &trans      &trans       &trans     &trans
