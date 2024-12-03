@@ -54,10 +54,4 @@
         sensors = <&left_encoder>;
         triggers-per-rotation = <20>;
     };
-    soft_off_wake: wake {
-        compatible = "zmk,gpio-key-wakeup-trigger";
-        wakeup-source = y;
-        trigger = <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-        extra-gpios = <&pro_micro 5 GPIO_ACTIVE_HIGH>;
-    };
 };
