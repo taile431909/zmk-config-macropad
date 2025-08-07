@@ -20,12 +20,12 @@
 
         MAIN_layer {
             bindings = <
-&kp C_MUTE     &bt BT_CLR       &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2
-&kp BACKSPACE  &kp KP_ASTERISK  &kp KP_DIVIDE  &kp DEL       &kp R
-&kp KP_MINUS   &kp N9           &kp N8         &kp N7        &kp F
-&kp KP_PLUS    &kp N6           &kp N5         &kp N4        &kp LEFT_SHIFT
-&kp ENTER      &kp N3           &kp N2         &kp N1        &kp LEFT_ALT
-&mo 1          &kp PERIOD       &kp N0         &d0           &kp LCTRL
+&kp C_MUTE     &bt BT_CLR       &bt BT_SEL 0         &bt BT_SEL 1     &kp KP_NUMLOCK
+&kp BACKSPACE  &kp KP_ASTERISK  &kp KP_DIVIDE        &kp DEL          &kp R
+&kp KP_MINUS   &kp KP_NUMBER_9  &kp KP_NUMBER_8      &kp KP_NUMBER_7  &kp F
+&kp KP_PLUS    &kp KP_NUMBER_6  &kp KP_NUMBER_5      &kp KP_NUMBER_4  &kp LEFT_SHIFT
+&kp ENTER      &kp KP_NUMBER_3  &kp RG(KP_NUMBER_2)  &kp KP_NUMBER_1  &kp LEFT_ALT
+&mo 1          &kp PERIOD       &kp N0               &d0              &kp LCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
